@@ -1,3 +1,5 @@
+package Practical3;
+
 public class hanoi {
 
     public static void main(String[] args) {
