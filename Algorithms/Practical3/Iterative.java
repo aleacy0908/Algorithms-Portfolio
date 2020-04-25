@@ -19,11 +19,17 @@ public class Iterative {
 
     public static void main (String args[])
     {
-        int n = 30;
-        long before = System.currentTimeMillis();
-        System.out.println(fibonacciIterative(n));
-        long duration = System.currentTimeMillis() - before;
-        System.out.println("amount of time taken: " + duration + "");
+        int n[] = {3,13,33,53,73,92,100,120,140,160,180,200};
+
+        for (int i : n){
+            long before = System.nanoTime();
+            int result = fibonacciIterative(i);
+            long duration = System.nanoTime() - before;
+            System.out.println("Amount of time to compute the first " + i + " fibonacci numbers in nanoseconds: " +
+                    duration);
+        }
+
+
     }
 
 
