@@ -6,6 +6,8 @@ package Practical2; /***********************************************************
  *  @author Kevin Wayne
  ******************************************************************************/
 
+import Resources.In;
+
 import java.util.concurrent.TimeUnit;
 
 public class ThreeSumA {
@@ -47,7 +49,8 @@ public class ThreeSumA {
      */
     public static void main(String[] args)  {
 
-        String[] arr = {"1Kints.txt", "2Kints.txt", "4Kints.txt", "8Kints.txt", "8ints.txt", "16Kints.txt", "32Kints.txt"};
+        String[] arr = { "Resources/8ints.txt", "Resources/1Kints.txt", "Resources/2Kints.txt", "Resources/4Kints.txt"
+                , "Resources/8Kints.txt", "Resources/16Kints.txt", "Resources/32Kints.txt"};
 
         for (int i = 0; i < 7; i++){
 
