@@ -4,6 +4,12 @@ import Resources.In;
 
 public class InsertionSort {
 
+    public InsertionSort(Comparable[] arr, int low, int high){
+        sort(arr, low, high);
+    }
+
+    public InsertionSort(){ }
+
     public void sort(int[] arr){
 
         for (int i = 1; i < arr.length; ++i){
@@ -20,13 +26,29 @@ public class InsertionSort {
 
     }
 
+    public void sort(Comparable[] arr, int low, int high){
+
+        for (int i = low; i < high+1; ++i){
+
+            int key = (int) arr[i];
+            int j = i - 1;
+
+            while (j >= 0 && arr[j].compareTo(key) > 0){
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+            arr[j + 1] = key;
+        }
+
+    }
+
     public String printArray(int[] arr){
 
         StringBuilder sb = new StringBuilder();
         sb.append("[");
 
-        for (int i = 0; i < arr.length-1; i++){
-            if (i == arr.length-2) sb.append(arr[i]);
+        for (int i = 0; i < arr.length; i++){
+            if (i == arr.length-1) sb.append(arr[i]);
             else sb.append(arr[i]).append(", ");
         }
 
@@ -44,6 +66,7 @@ public class InsertionSort {
         for (String file : files){
             In in = new In(file);
             arr = in.readAllInts();
+
 
             final long startTime = System.nanoTime();
             ss.sort(arr);
