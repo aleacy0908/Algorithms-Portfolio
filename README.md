@@ -4,16 +4,16 @@ This repository contains the algorithms I created while enrolled in the module "
 
 ## Directorys
 
-* **Practical 1** - Russian Peasants Algorithm
-* **Practical 2** - ThreeSumA and ThreeSumB Algorithms
-* **Practical 3** - Fibonacci Iterative and Recursive Algorithm, Tower of Hanoi Step-by-Step Solver
-* **Practical 4** - Insertion, Selection and Stalin Sort Algorithms
-* **Practical 5** - Merge Sort Algorithm
-* **Practical 6** - Quick Sort Algorithm
-* **Practical 7** - BruteForce Sub-String search and KMPsearch algorithms
-* **Practical 8** - Simple trie string search algorithm
-* **Practical 9** - Run Length Encoding Algorithm
-* **Resources** - Contains the .txt documents used to test an algorithm's runtime
+* **[Practical 1](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical1)** - Russian Peasants Algorithm
+* **[Practical 2](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical2)** - ThreeSumA and ThreeSumB Algorithms
+* **[Practical 3](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical3)** - Fibonacci Iterative and Recursive Algorithm, Tower of Hanoi Step-by-Step Solver
+* **[Practical 4](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical4)** - Insertion, Selection and Stalin Sort Algorithms
+* **[Practical 5](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical5)** - Merge Sort Algorithm
+* **[Practical 6](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical6)** - Quick Sort Algorithm
+* **[Practical 7](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical7)** - BruteForce Sub-String search and KMPsearch algorithms
+* **[Practical 8](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical8)** - Simple trie string search algorithm
+* **[Practical 9](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Practical9)** - Run Length Encoding Algorithm
+* **[Resources](https://github.com/CompAlgorithms/algorithm-portfolio-20290-aleacy0908/tree/master/Algorithms/Resources)** - Contains the .txt documents used to test an algorithm's runtime
 
 ## Algorithm Analysis
 
