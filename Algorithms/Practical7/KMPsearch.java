@@ -2,7 +2,7 @@ package Practical7;
 
 import Resources.In;
 
-class KMPsearch {
+public class KMPsearch {
     void KMPSearch(String pat, String txt) {
         int M = pat.length();
         int N = txt.length();
