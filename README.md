@@ -21,7 +21,10 @@ An analysis of the algorithms I made for practicals 1-7 are included as a PDF in
 
 ## Testing Algorithm Implementations 
 
-All the algorithms I implemented contain main methods to test if the algorithm works as intended. The time it takes for an algorithm to execute will be reported to the console in nanoseconds.
+To run all algorithm tests at once, run Main.java (Warning: Will take time to complete). Otherwise to run tests for specific algorithms, go to that algorithm and run its main method. 
+
+The time it takes for an algorithm to execute will be reported to the console in nanoseconds.
+
 The entire repository should be cloned to make it easier to test any algorithm using a .txt document within the resources folder. Some algorithms also utilise previous algorithms I implemented.
 
 ## Deployment
