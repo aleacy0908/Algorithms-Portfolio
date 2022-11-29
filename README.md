@@ -1,6 +1,4 @@
-# Adam Leacy - COMP20290 Code Repository
-
-This repository contains the algorithms I created while enrolled in the module "Alogrithms COMP20290".
+# Adam Leacy - Algorithms Code Repository
 
 ## Directorys
 
